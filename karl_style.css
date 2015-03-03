@@ -7,7 +7,7 @@
     width: 100%;
     background: none repeat scroll 0% 0% #FFF;
     line-height: 50px;
-    color: black;
+    color: #9879bf;
     text-transform: uppercase; /* Does it look better uppercase or lowercase?*/
     font-weight: 500px;
     font-size: 14px;
@@ -24,7 +24,7 @@
 
 .topbar li 
 {
-    color: black; /* black for now */
+    color: #9879bf; /* black for now */
     text-decoration: none; /* removes the underline */
     padding: 0px; 
     display: inline;
@@ -50,7 +50,7 @@
 
 .topbar a:visited, a:link, a:focus, a:active
 {
-    color: #97a7a7;
+    color: #9879bf;
 }
 
 body
@@ -61,13 +61,40 @@ body
 
 h1
 {
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 200px;
+    font-size: 60px;
+    text-align: center;
+    color: #9879bf;
+    font-family: "Lato", sans-serif;
 }
 
 .greetings
 {
-    background-color: #eaeded;
+    padding-left: 50px;
+}
+
+.buzz_words
+{
+    color: gold;
+    font-weight: 900px;
+    font-family: "Lato", sans-serif;
+}
+
+.brief_description
+{
+    color: lightgray;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 50px;
+    padding-bottom: 15px;
+    display: block;
+    padding-top: 50px;
+    text-align: center;
 }
 
 *
